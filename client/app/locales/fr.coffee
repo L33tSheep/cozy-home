@@ -17,7 +17,7 @@ module.exports =
     "memory consumption"        : "Utilisation mémoire"
     "disk consumption"          : "Utilisation disque"
     "you have no notifications" : "Vous n'avez aucune notification"
-    "dismiss all"               : "Ignorer toutes"
+    "dismiss all"               : "Tout ignore"
     "add application"         : "Ajouter l'application ?"
     "install"                   : "Installer"
     "your app"                 : "Votre application !"
@@ -32,11 +32,11 @@ module.exports =
     "confirm"                   : "Confirmer"
     "installing"                : "Installation en cours"
     "remove"                    : "enlever"
-    "update"                    : "m.à.j."
+    "update"                    : "MàJ"
     "started"                   : "démarrée"
     "notifications"             : "Notifications"
     "questions and help forum"  : "Forum d'aide"
-    "sign out"                  : "Sortir"
+    "sign out"                  : "Quitter"
     "open in a new tab"         : "Ouvrir dans un onglet"
     "disk unit"                 : "Go"
     "memory unit"               : "Mo"
@@ -52,25 +52,25 @@ module.exports =
 
     "no app message": """
         Vous n'avez aucune application installée. Allez sur
-        l'<a href="#applications">app store</a> pour en installer au moins une !
+        l'<a href="#applications">applithèque</a> pour en installer au moins une !
         """
 
     "welcome to app store": """
-        Bienvenue sur l'app store, vous pouvez installer votre propre application
+        Bienvenue sur l'applithèque, vous pouvez installer votre propre application
         ou ajouter une application existante dans la liste
         """
 
     "installed everything": "Vous avez déjà tout installé !"
     "already similarly named app": """
-        Une application qui porte un nom similaire est déjà installée.
+        Une application portant un nom similaire est déjà installée.
         """
 
 
-    "your app list": "Accédez à vos apps"
+    "your app list": "Accédez à vos applis"
     "customize your cozy":"Personnalisez la mise en page"
-    "manage your apps":"Gérez vos apps"
-    "choose your apps":"Choisissez vos apps"
-    "configure your cozy":"Configurez votre cozy"
+    "manage your apps":"Gérez vos applis"
+    "choose your apps":"Choisissez vos applis"
+    "configure your cozy":"Configurez votre Cozy"
     "ask for assistance":"Demandez de l'aide"
     "logout":"déconnexion"
     "welcome to your cozy":"Bienvenue sur votre Cozy !"
@@ -87,7 +87,7 @@ module.exports =
     "synchronized": "synchronisé"
     "no application installed":"Il n'y a pas d'applications installées."
     "save":"sauver"
-    "saved":"sauvé"
+    "saved":"sauvegardé"
 
     "your parameters":" Vos paramètres"
     "alerts and password recovery email":"""
@@ -124,8 +124,8 @@ module.exports =
     "your own application":"votre propre application"
     "broken":"cassée"
     "installed":"installée"
-    "updated":"m.à.j"
-    "updating":"m.à.j en cours"
+    "updated":"MàJ"
+    "updating":"MàJ en cours"
     "update all": "Mettre tout à jour"
     "update stack": "Mettre à jour"
     "refresh page": "Veuillez patienter, la page se rafraîchira d'ici quelques minutes."
@@ -140,8 +140,8 @@ module.exports =
     "stopped":"stoppée"
     "retry to install":"nouvel essai d'installation"
     "cozy account title":"Cozy - Compte"
-    "cozy app store title":"Cozy - App Store"
-    "cozy home title":"Cozy - Home"
+    "cozy app store title":"Cozy - Applithèque"
+    "cozy home title":"Cozy - Accueil"
     "cozy applications title":"Cozy - Configuration d'applications"
     "running":"démarrée"
     "cozy help title":"Cozy - Aide"
@@ -168,7 +168,7 @@ module.exports =
     "change layout": "Modifier la disposition"
 
     "introduction market": """
-        Bienvenue sur le marché d'application Cozy. C'est ici que vous pouvez
+        Bienvenue sur la bibliothèque d'application de Cozy. C'est ici que vous pouvez
         personnaliser votre Cozy en y ajoutant des applications.
         Vous pouvez installer l'application que vous avez créée ou choisir parmi
         celles proposées par Cozycloud ou d'autres développeurs.
@@ -188,10 +188,10 @@ module.exports =
     "photos description": "Construisez un album photo depuis vos fichiers et partagez-le."
     "sync description": "Cette application est nécessaire pour synchroniser vos contacts et vos événements."
     "bookmark description": "Sauvegardez et gérez vos liens favoris."
-    "cozic description": "Un lecteur audio pour votre musique dans votre navigateur."
-    "databrowser description": "Naviguez dans vos données dans un format brut."
+    "cozic description": "Un lecteur audio pour lire votre musique dans votre navigateur."
+    "databrowser description": "Naviguez parmis dans vos données."
     "feeds description": "Agrégez vos flux RSS et sauvegardez vos liens dans vos favoris."
-    "kyou description": "Améliorez  votre humeur et votre santé en vous quantifiant."
+    "kyou description": "Améliorez votre humeur et votre santé en vous quantifiant."
     "konnectors description": "Importation de données depuis des services externes (Twitter, Jawbone…)."
     "kresus description": "Des outils supplémentaires pour gérer vos comptes."
     "nirc description": "Accédez à votre canal IRC préféré depuis votre Cozy."
@@ -212,7 +212,7 @@ module.exports =
     'noapps':
         'first steps': """
         Vous pouvez <a href="%{wizard}">utiliser l'assistant</a> pour vous aider à installer et configurer vos applications,
-        ou vous pouvez ouvrir <a href="%{quicktour}">les "premiers pas"</a> pour découvrir les fonctionnalités de votre Cozy.
+        ou vous pouvez accéder <a href="%{quicktour}">aux "premiers pas"</a> pour découvrir les fonctionnalités de votre Cozy.
         """
         'customize your cozy': """
             Vous pouvez également <a href="%{account}">aller dans les réglages</a> pour personnaliser votre Cozy
@@ -262,7 +262,7 @@ module.exports =
         'welcome title': "Découvrez votre Cozy !"
         'welcome content': """
             <p>Bienvenue sur votre nouveau Cozy.</p>
-            <p>Ce tour rapide vous présentera les fonctionnalités de votre Cozy.</p>
+            <p>Ce rapide tour du propriétaire vous présentera les fonctionnalités de votre Cozy.</p>
             <p>N'oubliez pas que Cozy est en phase beta, n'hésitez pas à <a href="#help">nous contacter</a> si vous rencontrez des diffcultés dans votre utilisation.</p>
         """
         'continue to dashboard': "Découvrez le Tableau de bord"
@@ -275,12 +275,12 @@ module.exports =
         'apps title': "Gérer mes applications"
         'apps content': """
             <p><img src="/img/config-apps.png"><strong>Gestion des applications: </strong>Ici vous pouvez gérer l'état de vos applications&nbsp;: les lancer, les interrompre, les supprimer…</p>
-            <p><img src="/img/apps.png"><strong>Applithèque: </strong>Dans l'app store, vous trouverez de nouvelles applications à installer sur votre Cozy.</p>
+            <p><img src="/img/apps.png"><strong>Applithèque: </strong>Dans l'applithèque, vous trouverez de nouvelles applications à installer sur votre Cozy.</p>
         """
         'continue to help': "Comment trouver de l'aide ?"
         'help title': "Obtenir de l'aide"
         'help content': """
-            <p><img src="/img/configuration.png"><strong>Configuration: </strong>Pour fonctionner correctement, Cozy nécessite différents paramètres. Positionnez-les dans cette section.</p>
+            <p><img src="/img/configuration.png"><strong>Configuration&nbsp;: </strong>Pour fonctionner correctement, Cozy nécessite différents paramètres. Positionnez-les dans cette section.</p>
             <p><img src="/img/help.png"><strong>Aide: </strong>Vous trouverez ici toutes les ressources dont vous avez besoin.</p>
         """
         'continue to sync': "Synchronisez vos données"
